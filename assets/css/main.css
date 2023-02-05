@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #fafafa;
+    @apply bg-gradient-to-tr from-blue-50 to-[#fafafa] font-sans;
+  }
+}
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+@layer components {
+  .navbar {
+    @apply w-1/5 flex flex-col justify-between align-top p-4 md:pl-12 md:pt-8 border-r border-r-blue-50 max-h-screen sticky z-10 left-0 top-0;
+  }
+  .navbar-effect {
+    @apply backdrop-blur-lg bg-white/50;
+  }
+  #blob {
+    @apply -z-10 absolute opacity-50 animate-bounce;
+  }
+}
+
+.nuxt-content h1 {
+  @apply text-h1;
+}
+
+.nuxt-content h2 {
+  @apply text-h2;
+}
+.nuxt-content h3 {
+  @apply text-h3;
+}
+.nuxt-content h4 {
+  @apply text-sub1;
+}
+.nuxt-content h5 {
+  @apply text-sub2;
+}
+.nuxt-content p {
+  @apply text-b1;
+}

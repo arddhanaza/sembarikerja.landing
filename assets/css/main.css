@@ -28,24 +28,32 @@
   #blob {
     @apply -z-10 absolute opacity-50 animate-bounce;
   }
-}
+  .nuxt-content {
+    @apply flex flex-col gap-4;
+  }
+  .nuxt-content h1 {
+    @apply text-h1 text-grey-900;
+  }
 
-.nuxt-content h1 {
-  @apply text-h1;
-}
-
-.nuxt-content h2 {
-  @apply text-h2;
-}
-.nuxt-content h3 {
-  @apply text-h3;
-}
-.nuxt-content h4 {
-  @apply text-sub1;
-}
-.nuxt-content h5 {
-  @apply text-sub2;
-}
-.nuxt-content p {
-  @apply text-b1;
+  .nuxt-content h2 {
+    @apply text-h2 text-grey-900;
+  }
+  .nuxt-content h3 {
+    @apply text-h3 text-grey-900;
+  }
+  .nuxt-content h4 {
+    @apply text-sub1 text-grey-700;
+  }
+  .nuxt-content h5 {
+    @apply text-sub2 text-grey-700;
+  }
+  .nuxt-content p {
+    @apply text-b1 text-grey-500;
+  }
+  .nuxt-content ul > li {
+    @apply text-b1 text-grey-500 list-inside list-disc;
+  }
+  .nuxt-content ul > li > ul > li {
+    @apply ml-5;
+  }
 }

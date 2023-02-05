@@ -3,15 +3,28 @@ title: sembarikerja project
 description: part of kegabutan sembari kerja (red:bored while working)
 ---
 
-## Test
+## Who are we?
 
-sd
-asdf
+We just three bored typical IT guy working in a startup. Well this project is initiated when we can’t find another way to make us more productive. So here we are
 
-## tes2
+## Our Team
 
-ada
+We are consist of three [^1] people
 
-### t3
+- Arddhana Zhafran: product designer and project manager
+  - [github](https://github.com/arddhanaza)
+  - [linkedin](https://linkedin.com/in/arddhanazhafran/)
+- Farhan Audianto: flutter developer
+  - [github](https://github.com/fhaarn)
+  - [linkedin](https://linkedin.com/in/farhan-audianto-b92569208/)
+- Rahmaturramadhan: flutter developer
+  - [github](https://github.com/rahmat412)
+  - [linkedin](https://linkedin.com/in/rahmatur-ramadhan/)
 
-adad
+[^1]: Originally
+
+## Our Project
+
+We are working on
+
+### Trackez

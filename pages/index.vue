@@ -3,7 +3,9 @@
     <BlobAnimation />
     <SideBar :tocs="theContent.toc" />
     <article class="p-4 md:pt-8 overflow-hidden w-full">
-      <p>Last updated at: {{ formatDate(theContent.updatedAt) }}</p>
+      <p class="text-b2 text-grey-500">
+        Last updated at: {{ formatDate(theContent.updatedAt) }}
+      </p>
       <nuxt-content :document="theContent" />
     </article>
   </div>

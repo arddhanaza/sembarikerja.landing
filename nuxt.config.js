@@ -42,6 +42,10 @@ export default {
         tailwindcss: {},
         autoprefixer: {}
       }
-    }
+    },
+    minifyCSS: true,
+    minifyJS: true,
+    extractCSS: true,
+    optimizeCSS: false
   }
 }
